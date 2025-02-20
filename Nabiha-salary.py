@@ -13,3 +13,5 @@ print(f"The amount save is {save}$ ,the amount rent is {rent}$, the amount elect
 sum = save + rent + electricty
 print(f"The total amount of nabiha is {sum}$")
 remainder_salary = salary - sum
+print(f"the remainder of nabiha salary after these expenses is {remainder_salary}$")
+yearly = (rent + electricty)*(12)
