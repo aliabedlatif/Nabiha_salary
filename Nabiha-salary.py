@@ -9,3 +9,4 @@ while percentage != "d":
     elif percentage == "c":
         electricty = int(input("the amount electricty:"))
     percentage = input("enter price a)saving b)rent c)electricty: ")
+print(f"The amount save is {save}$ ,the amount rent is {rent}$, the amount electricty is {electricty}$ ")
