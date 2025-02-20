@@ -1,3 +1,5 @@
+import random
+
 salary = int(input("Enter salary of month:"))
 Month = input("Enter name of month:")
 percentage = input("Enter price for a)saving , b)rent ,c)electricty:")
@@ -18,3 +20,4 @@ yearly = (rent + electricty)*(12)
 print(f"the yearly cost for rent and electricty is {yearly}$")
 total_salary = salary ** 2
 print(f"the total salary for the month is {total_salary}$")
+random_save = random.randrange(1,save)
