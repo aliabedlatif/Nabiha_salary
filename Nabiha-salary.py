@@ -21,3 +21,5 @@ print(f"the yearly cost for rent and electricty is {yearly}$")
 total_salary = salary ** 2
 print(f"the total salary for the month is {total_salary}$")
 random_save = random.randrange(1,save)
+save_amount = random_save / save
+total_save = save +save_amount
