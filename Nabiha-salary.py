@@ -11,3 +11,5 @@ while percentage != "d":
     percentage = input("enter price a)saving b)rent c)electricty: ")
 print(f"The amount save is {save}$ ,the amount rent is {rent}$, the amount electricty is {electricty}$ ")
 sum = save + rent + electricty
+print(f"The total amount of nabiha is {sum}$")
+remainder_salary = salary - sum
